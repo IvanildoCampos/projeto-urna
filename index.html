@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urna Eletronica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="urna">
+        <div class="tela">
+            <div class="d1">
+                <div class="d1-left">
+                    <div class="d-1-1">
+                        <span>SEU VOTO PARA:</span>
+                    </div>
+                    <div class="d-1-2">
+                        <span>Governador</span>
+                    </div>
+                    <div class="d-1-3">
+                        <div class="numero pisca"></div>
+                        <div class="numero"></div>
+                    </div>
+                    <div class="d-1-4">
+                        Nome: xxx <br>
+                        Partido: xxx <br>
+                        vice-presidente: xxx
+                    </div>
+                </div>
+                <div class="d1-right">
+                    <div class="d-1-image">
+                        <img src="imagem/Imagem.jpeg" alt="">
+                        Governador
+                    </div>
+                    <div class="d-1-image small">
+                        <img src="imagem/imagem2.jpeg" alt="">
+                        Presidente
+                    </div>
+                </div>
+            </div>
+            <div class="d2">
+                Aperte a tela: </br>
+                CONFIRMA para CONFIMAR este VOTO <br>
+                CORRIGI para REINICIAR este VOTO
+            </div>
+        </div>
+    <div class="teclado">
+        <div class="teclado--linha">
+            <div class="teclado--botao" onclick="clicou(1)">1</div>
+            <div class="teclado--botao" onclick="clicou(2)">2</div>
+            <div class="teclado--botao" onclick="clicou(3)">3</div>
+        </div>
+        <div class="teclado--linha">
+            <div class="teclado--botao" onclick="clicou(4)">4</div>
+            <div class="teclado--botao" onclick="clicou(5)">5</div>
+            <div class="teclado--botao" onclick="clicou(6)">6</div>
+        </div>
+        <div class="teclado--linha">
+            <div class="teclado--botao" onclick="clicou(7)">7</div>
+            <div class="teclado--botao" onclick="clicou(8)">8</div>
+            <div class="teclado--botao" onclick="clicou(9)">9</div>
+        </div>
+        <div class="teclado--linha">
+            <div class="teclado--botao" onclick="clicou(0)">0</div>
+        </div>
+        <div class="teclado--linha">
+            <div class="teclado--botao botao--branco" onclick="branco()">BRANCO</div>
+            <div class="teclado--botao botao--corrige" onclick="corrige()">CORRIGE</div>
+            <div class="teclado--botao botao--confirma" onclick="confirma()">CONFIRMA</div>
+        </div>
+    </div>
+</div>
+<div class="paragrafo">
+    <div id="candidatos">
+        <p>
+            Governador:<br/>
+            Ivanildo1 88888<br/>
+            Ivanildo2 99999
+        </p>
+        <p>
+            PRESIDENTE:<br/>
+            Ivanildo3 88<br/>
+            Ivanildo5 99
+        </p>
+</div>
+</div>
+    <script src="etapas.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
